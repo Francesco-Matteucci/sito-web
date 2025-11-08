@@ -48,6 +48,17 @@
                 </router-link>
             </div>
         </section>
+
+        <section class="bg-light py-5 text-center">
+            <div class="container">
+                <h2 class="h3 mb-3">Chi siamo</h2>
+                <p class="lead mx-auto" style="max-width: 700px;">
+                    Insieme per Spoleto è un gruppo consiliare civico nato per promuovere trasparenza, dialogo e
+                    concretezza nelle istituzioni cittadine.
+                </p>
+                <router-link to="/chi-siamo" class="btn btn-outline-primary">Scopri di più</router-link>
+            </div>
+        </section>
     </div>
 </template>
 
