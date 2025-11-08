@@ -1,16 +1,44 @@
 [
   {
-    "id": "2025-11-08-maggioranza",
-    "title": "Maggioranza spaccata: garantito il numero legale per discutere di scuole",
-    "date": "2025-11-08",
-    "summary": "Le minoranze garantiscono il numero legale; la maggioranza fa mancare il confronto.",
-    "pdfUrl": "/files/2025-11-08-comunicato.pdf"
+    "id": "2025-11-07-com-sta",
+    "title": "Gestione finanziaria inefficiente e mancanza di trasparenza",
+    "date": "2025-11-07",
+    "summary": "Il gruppo Insieme per Spoleto denuncia gravi inefficienze nella gestione economica comunale e chiede un cambio di rotta immediato per tutelare il bene pubblico.",
+    "pdfUrl": "/files/com-sta.pdf"
   },
   {
-    "id": "2025-10-30-consulta",
-    "title": "Consulta sanitaria, la nostra posizione",
+    "id": "2025-11-03-crisi-maggioranza",
+    "title": "Crisi della maggioranza e paralisi amministrativa in città",
+    "date": "2025-11-03",
+    "summary": "La maggioranza che governa la città è spaccata e incapace di agire: il gruppo Insieme per Spoleto chiede responsabilità e restituzione della parola ai cittadini.",
+    "pdfUrl": "/files/crisi-maggioranza.pdf"
+  },
+  {
+    "id": "2025-10-30-palestre",
+    "title": "Interpellanza sull’utilizzo delle palestre comunali",
     "date": "2025-10-30",
-    "summary": "Proposta per rilanciare il dialogo tra cittadini e istituzioni sanitarie.",
-    "pdfUrl": "/files/2025-10-30-consulta.pdf"
+    "summary": "I consiglieri chiedono chiarimenti sulla trasparenza dei criteri di assegnazione e gestione degli impianti sportivi comunali.",
+    "pdfUrl": "/files/palestre.pdf"
+  },
+  {
+    "id": "2025-10-17-ospedale",
+    "title": "Ospedale di Spoleto: basta silenzi e promesse non mantenute",
+    "date": "2025-10-17",
+    "summary": "Il gruppo denuncia il declino del San Matteo degli Infermi e chiede il ripristino dei servizi e del personale, non nuovi progetti irrealistici.",
+    "pdfUrl": "/files/comunicato-stampa-ospedale-spoleto.pdf"
+  },
+  {
+    "id": "2025-10-10-consulta-sanitaria",
+    "title": "Proposta per la creazione della Consulta Sanitaria Comunale",
+    "date": "2025-10-10",
+    "summary": "Il gruppo propone un organismo permanente di partecipazione civica e sanitaria per promuovere salute, prevenzione e dialogo con i cittadini.",
+    "pdfUrl": "/files/consulta-sanitaria.pdf"
+  },
+  {
+    "id": "2025-09-25-monteluco",
+    "title": "Incontro a Monteluco: rilanciare Spoleto con idee e responsabilità",
+    "date": "2025-09-25",
+    "summary": "Durante l’incontro a Monteluco, i consiglieri di Insieme per Spoleto hanno illustrato criticità amministrative e priorità per la rinascita economica e sociale della città.",
+    "pdfUrl": "/files/Comunicato-stampa-INSIEME-PER-SPOLETO-25-09-2025.docx"
   }
 ]
