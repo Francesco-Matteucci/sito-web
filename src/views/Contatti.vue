@@ -15,23 +15,41 @@
                             <ul class="list-unstyled mb-0">
                                 <li class="d-flex align-items-start mb-3">
                                     <i class="bi bi-envelope-fill me-2 text-brand"></i>
-                                    <a href="mailto:insiemeperspoleto@gmail.com" class="text-decoration-none">
-                                        insiemeperspoleto@gmail.com
+                                    <a href="mailto:insiemespoleto@gmail.com" class="text-decoration-none">
+                                        insiemespoleto@gmail.com
                                     </a>
                                 </li>
+
                                 <li class="d-flex align-items-start mb-3">
                                     <i class="bi bi-geo-alt-fill me-2 text-brand"></i>
                                     <span>Spoleto (PG), Umbria</span>
                                 </li>
+
                                 <li class="d-flex align-items-start mb-3">
+                                    <i class="bi bi-instagram me-2 text-brand"></i>
+                                    <a href="https://www.instagram.com/insieme_per_spoleto/" target="_blank"
+                                        rel="noopener" class="text-decoration-none">
+                                        Instagram ufficiale
+                                    </a>
+                                </li>
+
+                                <li class="d-flex align-items-start mb-3">
+                                    <i class="bi bi-tiktok me-2 text-brand"></i>
+                                    <a href="https://www.tiktok.com/@insiemeperspoleto" target="_blank" rel="noopener"
+                                        class="text-decoration-none">
+                                        TikTok ufficiale
+                                    </a>
+                                </li>
+
+                                <li class="d-flex align-items-start mb-1">
                                     <i class="bi bi-facebook me-2 text-brand"></i>
                                     <a href="#" class="text-decoration-none">Facebook ufficiale</a>
                                 </li>
                             </ul>
 
-                            <div class="d-flex gap-2 mt-4">
-                                <a href="mailto:insiemeperspoleto@gmail.com" class="btn btn-primary">
-                                    Scrivi una mail
+                            <div class="d-flex flex-wrap gap-2 mt-4">
+                                <a href="mailto:insiemespoleto@gmail.com" class="btn btn-primary">
+                                    <i class="bi bi-envelope me-1"></i> Scrivi una mail
                                 </a>
                                 <router-link to="/programma" class="btn btn-outline-primary">
                                     Vedi il programma
