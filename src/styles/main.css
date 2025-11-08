@@ -1,2 +1,18 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  --brand-red: #C30000;
+  --brand-green: #009B6B;
+  --brand-blue: #00A6D4;
+  --text-dark: #333333;
+  --bg-light: #F8F8F8;
+}
+body {
+  color: var(--text-dark);
+  font-family: 'Inter', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--brand-red);
+}
