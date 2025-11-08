@@ -18,7 +18,7 @@
                             <span class="date-badge">{{ formatDate(c.date) }}</span>
                         </div>
 
-                        <p class="mb-0 text-secondary">{{ c.summary }}</p>
+
                     </div>
 
                     <div class="ms-auto">
