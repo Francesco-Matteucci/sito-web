@@ -30,7 +30,7 @@
                         <div class="card-body d-flex flex-column">
                             <h3 class="h5">{{ c.title }}</h3>
                             <p class="small text-muted mb-2">{{ formatDate(c.date) }}</p>
-                            <p class="mb-3 flex-grow-1">{{ c.summary }}</p>
+                            <p class="mb-3 grow">{{ c.summary }}</p>
                             <!-- bottone fissato in basso -->
                             <a :href="c.pdfUrl" target="_blank"
                                 class="btn btn-outline-primary btn-sm mt-auto align-self-start">

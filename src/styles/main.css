@@ -78,3 +78,9 @@ a {
 .text-brand-blue { color: var(--brand-blue) !important; }
 .bg-brand-red { background: var(--brand-red) !important; }
 .bg-brand-blue { background: var(--brand-blue) !important; }
+
+/* Sticky footer layout*/
+html, body { height: 100%; }
+#app { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1 0 auto; }
+.site-footer { flex-shrink: 0; }
