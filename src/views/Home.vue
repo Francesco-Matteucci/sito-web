@@ -48,7 +48,67 @@
                 </router-link>
             </div>
         </section>
+        <!-- PROGRAMMA IN EVIDENZA -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <h2 class="h3 mb-4 text-center text-uppercase">Programma in evidenza</h2>
 
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="icon-pill mb-3"><i class="bi bi-hospital"></i></div>
+                                <h3 class="h6 mb-2">Sanità e territorio</h3>
+                                <p class="mb-3 small">Difesa e potenziamento dei servizi sanitari cittadini,
+                                    accessibilità e prevenzione.</p>
+                                <router-link to="/programma" class="stretched-link small">Approfondisci</router-link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="icon-pill mb-3"><i class="bi bi-mortarboard"></i></div>
+                                <h3 class="h6 mb-2">Scuola e giovani</h3>
+                                <p class="mb-3 small">Edilizia scolastica, sport e opportunità formative per i più
+                                    giovani.</p>
+                                <router-link to="/programma" class="stretched-link small">Approfondisci</router-link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="icon-pill mb-3"><i class="bi bi-building"></i></div>
+                                <h3 class="h6 mb-2">Sviluppo locale</h3>
+                                <p class="mb-3 small">Sostegno a imprese, turismo e cultura per rilanciare l’economia
+                                    cittadina.</p>
+                                <router-link to="/programma" class="stretched-link small">Approfondisci</router-link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="icon-pill mb-3"><i class="bi bi-bus-front"></i></div>
+                                <h3 class="h6 mb-2">Mobilità e ambiente</h3>
+                                <p class="mb-3 small">Trasporti sostenibili, piste ciclabili e cura del verde pubblico.
+                                </p>
+                                <router-link to="/programma" class="stretched-link small">Approfondisci</router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <router-link to="/programma" class="btn btn-primary px-4">Tutto il programma</router-link>
+                </div>
+            </div>
+        </section>
+        <!-- ANTEPRIMA CHI SIAMO -->
         <section class="bg-light py-5 text-center">
             <div class="container">
                 <h2 class="h3 mb-3">Chi siamo</h2>
@@ -130,5 +190,17 @@
         .hero-content {
             padding: 60px 18px;
         }
+    }
+
+    .icon-pill {
+        width: 44px;
+        height: 44px;
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--brand-red);
+        color: #fff;
+        font-size: 1.2rem;
     }
 </style>
