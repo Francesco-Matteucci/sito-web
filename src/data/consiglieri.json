@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Marco Rossi",
+    "role": "Capogruppo",
+    "bio": "Laureato in Scienze Politiche, da anni impegnato nella valorizzazione del territorio.",
+    "photo": "/assets/rossi.jpg"
+  },
+  {
+    "name": "Laura Bianchi",
+    "role": "Consigliera",
+    "bio": "Attiva nel volontariato e nelle politiche giovanili.",
+    "photo": "/assets/bianchi.jpg"
+  },
+  {
+    "name": "Giorgio Verdi",
+    "role": "Consigliere",
+    "bio": "Esperto di urbanistica, si occupa di mobilità e riqualificazione.",
+    "photo": "/assets/verdi.jpg"
+  }
+]
