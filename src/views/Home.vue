@@ -81,10 +81,10 @@
     /* Box hero con confini chiari */
     .hero-box {
         min-height: 420px;
-        /* altezza elegante senza esagerare */
+        /* altezza elegante*/
     }
 
-    /* Immagine di sfondo: resta confinata nel box */
+    /* Immagine di sfondo*/
     .hero-bg {
         position: absolute;
         inset: 0;
@@ -94,7 +94,7 @@
         /* micro-zoom per evitare bordi vuoti */
     }
 
-    /* Velo per leggibilità del testo (gradiente morbido) */
+    /* Velo per leggibilità del testo */
     .hero-overlay {
         position: absolute;
         inset: 0;
@@ -110,7 +110,7 @@
         padding: 80px 24px;
     }
 
-    /* Responsive: un po' più compatta su schermi piccoli */
+    /* Responsive */
     @media (max-width: 575.98px) {
         .hero-box {
             min-height: 360px;
