@@ -24,11 +24,16 @@
 </template>
 
 <script>
-    import people from '../data/consiglieri.json'
+    import peopleData from '../data/consiglieri.json'
 
     export default {
         data() {
-            return { people }
+            return {
+                people: peopleData.map(p => ({
+                    ...p,
+                    photo: p.photo ? new URL(`../assets/${p.photo}`, import.meta.url).href : null
+                }))
+            }
         }
     }
 </script>

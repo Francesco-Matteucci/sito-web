@@ -1,20 +1,20 @@
 [
   {
-    "name": "Marco Rossi",
+    "name": "Paolo Piccioni",
     "role": "Capogruppo",
-    "bio": "Esperto di politiche pubbliche e bilancio, impegnato per trasparenza e partecipazione.",
-    "photo": "/assets/rossi.jpg"
+    "bio": "Laureato in Scienze Politiche, con una lunga esperienza nell'amministrazione pubblica e nella gestione del personale. Da sempre impegnato per la trasparenza e la buona amministrazione, promuove un dialogo costante tra cittadini e istituzioni.",
+    "photo": "Paolo-Piccioni.webp"
   },
   {
-    "name": "Laura Bianchi",
-    "role": "Consigliera",
-    "bio": "Attiva nel volontariato e nelle politiche giovanili.",
-    "photo": "/assets/bianchi.jpg"
-  },
-  {
-    "name": "Giorgio Verdi",
+    "name": "Giancarlo Cintioli",
     "role": "Consigliere",
-    "bio": "Si occupa di mobilità sostenibile e riqualificazione urbana.",
-    "photo": "/assets/verdi.jpg"
+    "bio": "Consigliere del gruppo Insieme per Spoleto, con un lungo percorso professionale nell'ambito tecnico e nella gestione dei servizi pubblici. Attento alla cura del territorio e alla valorizzazione delle infrastrutture cittadine, promuove soluzioni concrete per una città più efficiente e sostenibile.",
+    "photo": "GIANCARLO-CINTIOLI.jpg"
+  },
+  {
+    "name": "Donatella Loretoni",
+    "role": "Vice Capogruppo",
+    "bio": "Vice Capogruppo di Insieme per Spoleto, mette al centro della sua azione la partecipazione dei cittadini e il sostegno concreto alle famiglie. Con esperienza nelle associazioni del territorio, lavora per una città solidale, inclusiva e dinamica.",
+    "photo": "loretoni-donatella.jpg"
   }
 ]
