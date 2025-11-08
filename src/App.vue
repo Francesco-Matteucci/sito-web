@@ -2,8 +2,10 @@
   <div id="app" class="d-flex flex-column min-vh-100">
     <NavBar />
 
-    <main class="flex-grow-1">
-      <router-view />
+    <main class="grow d-flex">
+      <div class="w-100 my-auto">
+        <router-view />
+      </div>
     </main>
 
     <SiteFooter />
