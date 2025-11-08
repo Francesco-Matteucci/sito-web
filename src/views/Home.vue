@@ -7,8 +7,8 @@
                     <div class="hero-bg"></div>
                     <div class="hero-overlay"></div>
                     <div class="hero-content text-center text-light position-relative">
-                        <h1 class="display-6 fw-bold mb-3">Insieme per Spoleto</h1>
-                        <p class="lead mb-4">
+                        <h1 class="hero-title display-6 fw-bold mb-3">Insieme per Spoleto</h1>
+                        <p class="hero-subtitle lead mb-4">
                             Un gruppo consiliare al servizio della città, per una Spoleto più giusta, trasparente e
                             partecipata.
                         </p>
@@ -179,6 +179,17 @@
     .hero-content {
         position: relative;
         padding: 80px 24px;
+    }
+
+    .hero-title {
+        color: #d40000;
+        font-weight: 700;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-subtitle {
+        color: #fff;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     }
 
     /* Responsive */
