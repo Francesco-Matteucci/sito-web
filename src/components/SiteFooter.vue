@@ -9,9 +9,9 @@
 
                 <!-- Contatti -->
                 <div class="col-md-6 text-md-end">
-                    <a class="link-light text-decoration-none me-3" href="mailto:press@insiemeper-spoleto.it"
-                        aria-label="Scrivi a press@insiemeper-spoleto.it">
-                        <i class="bi bi-envelope me-1"></i>press@insiemeper-spoleto.it
+                    <a class="link-light text-decoration-none me-3" href="mailto:insiemeperspoleto@gmail.com"
+                        aria-label="Scrivi a insiemeperspoleto@gmail.com">
+                        <i class="bi bi-envelope me-1"></i>insiemeperspoleto@gmail.com
                     </a>
                     <a class="link-light text-decoration-none" href="#" target="_blank" rel="noopener"
                         aria-label="Pagina Facebook ufficiale">
