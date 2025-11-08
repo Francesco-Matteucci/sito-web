@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column min-vh-100">
     <NavBar />
-    <main class="flex-grow-1">
+    <main class="grow">
       <router-view />
     </main>
     <SiteFooter />
