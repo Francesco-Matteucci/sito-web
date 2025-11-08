@@ -108,6 +108,63 @@
                 </div>
             </div>
         </section>
+        <!-- GALLERIA / EVENTI -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="h3 mb-4 text-center text-uppercase">Dal territorio</h2>
+
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="ratio ratio-16x9 bg-light">
+                                <img src="../assets/evento-1.jpg" alt="Incontro con i cittadini a Monteluco"
+                                    class="w-100 h-100 obj-cover" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h6 mb-1">Incontro con i cittadini</h3>
+                                <p class="small text-muted mb-2">Monteluco · 25/09/2025</p>
+                                <p class="small mb-0">Ascolto, proposte e priorità per la città.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="ratio ratio-16x9 bg-light">
+                                <img src="../assets/evento-2.jpg" alt="Sopralluogo impianti sportivi"
+                                    class="w-100 h-100 obj-cover" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h6 mb-1">Impianti sportivi</h3>
+                                <p class="small text-muted mb-2">Spoleto · 30/10/2025</p>
+                                <p class="small mb-0">Sopralluogo e richieste di trasparenza sull’uso delle palestre.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="ratio ratio-16x9 bg-light">
+                                <img src="../assets/evento-3.jpg" alt="Tavolo sulla sanità locale"
+                                    class="w-100 h-100 obj-cover" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h6 mb-1">Sanità e territorio</h3>
+                                <p class="small text-muted mb-2">Spoleto · 17/10/2025</p>
+                                <p class="small mb-0">Proposte concrete per il San Matteo degli Infermi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="#" target="_blank" rel="noopener" class="btn btn-outline-primary px-4">
+                        Vedi altri scatti su Facebook
+                    </a>
+                </div>
+            </div>
+        </section>
         <!-- ANTEPRIMA CHI SIAMO -->
         <section class="bg-light py-5 text-center">
             <div class="container">
@@ -213,5 +270,9 @@
         background: var(--brand-red);
         color: #fff;
         font-size: 1.2rem;
+    }
+
+    .obj-cover {
+        object-fit: cover;
     }
 </style>
