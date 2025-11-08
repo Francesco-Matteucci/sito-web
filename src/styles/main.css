@@ -16,3 +16,65 @@ h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   color: var(--brand-red);
 }
+
+/* ==============================
+   🎨 PALETTE BRAND UFFICIALE
+   Insieme per Spoleto
+   ============================== */
+
+:root {
+  /* Colori principali (dal logo) */
+  --brand-red:   #d40000;   /* rosso del bordo */
+  --brand-green: #1aa35b;   /* verde del cuore */
+  --brand-blue:  #0f7abf;   /* blu del testo */
+
+  /* Toni più scuri per hover/focus */
+  --brand-red-700:   #a80000;
+  --brand-blue-700:  #0c5f95;
+
+  /* Override Bootstrap */
+  --bs-primary: var(--brand-blue);
+  --bs-link-color: var(--brand-blue);
+  --bs-link-hover-color: var(--brand-blue-700);
+  --bs-btn-border-radius: .5rem;
+}
+
+/* === BOTTONI PRIMARI === */
+.btn-primary {
+  --bs-btn-bg: var(--brand-blue);
+  --bs-btn-border-color: var(--brand-blue);
+  --bs-btn-hover-bg: var(--brand-blue-700);
+  --bs-btn-hover-border-color: var(--brand-blue-700);
+  --bs-btn-active-bg: var(--brand-blue-700);
+  --bs-btn-active-border-color: var(--brand-blue-700);
+  --bs-btn-focus-shadow-rgb: 15, 122, 191; /* blu */
+}
+
+/* === ICONE / PASTIGLIE === */
+.icon-pill {
+  background: var(--brand-red);
+  color: #fff;
+}
+
+/* === LINK === */
+a {
+  text-underline-offset: 2px;
+}
+
+/* === NAVBAR === */
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  color: var(--brand-red) !important;
+}
+
+/* === FOOTER === */
+.site-footer a:hover {
+  color: var(--brand-blue-700);
+}
+
+/* === CLASSI DI UTILITÀ === */
+.text-brand-red { color: var(--brand-red) !important; }
+.text-brand-blue { color: var(--brand-blue) !important; }
+.bg-brand-red { background: var(--brand-red) !important; }
+.bg-brand-blue { background: var(--brand-blue) !important; }

@@ -26,12 +26,16 @@
             <div v-if="latestComunicati.length" class="row g-4">
                 <div v-for="c in latestComunicati" :key="c.id" class="col-md-4">
                     <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body">
+                        <!-- struttura flessibile -->
+                        <div class="card-body d-flex flex-column">
                             <h3 class="h5">{{ c.title }}</h3>
                             <p class="small text-muted mb-2">{{ formatDate(c.date) }}</p>
-                            <p class="mb-3">{{ c.summary }}</p>
-                            <a :href="c.pdfUrl" target="_blank" class="btn btn-outline-primary btn-sm">
-                                <i class="bi bi-file-earmark-pdf me-1"></i>Leggi il comunicato
+                            <p class="mb-3 flex-grow-1">{{ c.summary }}</p>
+                            <!-- bottone fissato in basso -->
+                            <a :href="c.pdfUrl" target="_blank"
+                                class="btn btn-outline-primary btn-sm mt-auto align-self-start">
+                                <i class="bi bi-file-earmark-pdf me-1"></i>
+                                Leggi il comunicato
                             </a>
                         </div>
                     </div>
@@ -43,7 +47,7 @@
             </div>
 
             <div class="text-center mt-5">
-                <router-link to="/comunicati" class="btn btn-primary px-4">
+                <router-link to="/comunicati" class="btn btn-outline-primary px-4">
                     Tutti i comunicati
                 </router-link>
             </div>
@@ -104,7 +108,7 @@
                 </div>
 
                 <div class="text-center mt-4">
-                    <router-link to="/programma" class="btn btn-primary px-4">Tutto il programma</router-link>
+                    <router-link to="/programma" class="btn btn-outline-primary px-4">Tutto il programma</router-link>
                 </div>
             </div>
         </section>
